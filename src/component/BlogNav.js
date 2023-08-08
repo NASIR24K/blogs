@@ -2,7 +2,10 @@
 
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Navbar, Nav, Form, FormControl } from 'react-bootstrap';
+import { Navbar, Nav, Form, FormControl, Image } from 'react-bootstrap';
+import MyImage from './images/food4.jpg';
+
+
 
 const BlogNav = () => {
 	return (
@@ -10,13 +13,15 @@ const BlogNav = () => {
 			<Navbar style={{
 				backgroundColor:"#A3C1D4"
 			}}>
-				<img
-			src='https://media.geeksforgeeks.org/gfg-gg-logo.svg'
-			height='30'
+				<Image
+			src={MyImage}
+			height='50'
 			alt=''
 			loading='lazy'
-			/>
-				<Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>GeeksforGeeks</Navbar.Brand>
+            className="m-2"
+			roundedCircle />
+     
+				<Navbar.Brand href="#home" style={{color:"white", marginLeft:"10px"}}>NFSoft</Navbar.Brand>
 				<Navbar.Toggle />
 				<Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
 					<Nav>
