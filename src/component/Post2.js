@@ -1,14 +1,16 @@
 // Post2.js
 
 import { Card } from "react-bootstrap";
+import MyImage from '../images/Javascript.jpg';
+
 
 const Post2 = () => {
 	return (
 		<Card>
 			<Card.Img
 				variant="top"
-				src=
-"https://media.geeksforgeeks.org/img-practice/banner/coa-gate-2022-thumbnail.png"
+				src={MyImage}
+
 				width={20}
 				height={250}
 			/>

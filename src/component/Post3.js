@@ -1,18 +1,19 @@
 // Post3.js
 
 import { Card } from "react-bootstrap";
+import MyImage from '../images/react.jpg';
+
 const Post3 = () => {
 	return (
 		<Card>
 			<Card.Img
 				variant="top"
-				src=
-"https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png"
+				src={MyImage}
 				width={20}
 				height={250}
 			/>
 			<Card.Body>
-				<Card.Title>Algorithm</Card.Title>
+				<Card.Title>react</Card.Title>
 				<Card.Text>
 					The word Algorithm means “a process
 					or set of rules to be followed in calculations

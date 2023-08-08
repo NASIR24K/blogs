@@ -39,7 +39,7 @@ const BlogNav = () => {
 						</Nav.Link>
 					</Nav>
 					<Form inline>
-						<FormControl type="text" placeholder="Search" className="ml-auto" />
+						<FormControl type="text" placeholder="Search" className="ml-auto ml-5" />
 					</Form>
 				</Navbar.Collapse>
 			</Navbar>
