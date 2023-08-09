@@ -23,7 +23,7 @@ const Posts = () => {
 							</ul>
 					</div>
 				</Col>
-				<Col md={6} className="mb-4 mt-4">
+				<Col md={7} className="mb-4 mt-4">
 					<Post1 />
 				</Col>
 				<Col md={3} className="mt-4 float-right">
@@ -45,7 +45,7 @@ const Posts = () => {
 	
 					</div>
 				</Col>
-				<Col md={6} className="mb-4">
+				<Col md={7} className="mb-4">
 					<Post2 />
 				</Col>
                 <Col md={3} className="mt-4 float-right">
@@ -69,7 +69,7 @@ const Posts = () => {
 	
 					</div>
 				</Col>
-				<Col md={6} className="mb-4">
+				<Col md={7} className="mb-4">
 					<Post3 />
 				</Col>
                 
@@ -83,7 +83,7 @@ const Posts = () => {
 	
 					</div>
 				</Col>
-				<Col md={6} className="mb-4">
+				<Col md={7} className="mb-4">
 					<Post4 />
 				</Col>
 				<Col md={3} className="mb-4 mt-4">
