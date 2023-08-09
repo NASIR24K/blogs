@@ -3,7 +3,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, Form, FormControl, Image } from 'react-bootstrap';
-import MyImage from './images/food4.jpg';
+import MyImage from '../images/food4.jpg';
 
 
 

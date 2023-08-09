@@ -1,5 +1,4 @@
 // Posts.js
-
 import React from "react";
 import Post1 from "./Post1";
 import Post2 from "./Post2";
@@ -10,11 +9,11 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Posts = () => {
 	return (
-		<Container>
+		<Container fluid>
 			<Row className="justify-content-between">
-			<Col md={2} className="mb-4 mt-4">
+			<Col md={2} className="m-5">
 			<div>
-						<h2>Social media</h2>
+						<h2>Share</h2>
 							<ul className="list-unstyled">
 								<li><a href="0#">Linkedln</a></li>
 								<li><a href="0#">Facebook</a></li>
@@ -24,10 +23,10 @@ const Posts = () => {
 							</ul>
 					</div>
 				</Col>
-				<Col md={8} className="mb-4 mt-4">
+				<Col md={6} className="mb-4 mt-4">
 					<Post1 />
 				</Col>
-				<Col md={2} className="mt-4 float-right">
+				<Col md={3} className="mt-4 float-right">
 					<Card>
 						<Card.Body>
 							<Card.Title>Recent Posts</Card.Title>
@@ -46,10 +45,10 @@ const Posts = () => {
 	
 					</div>
 				</Col>
-				<Col md={8} className="mb-4">
+				<Col md={6} className="mb-4">
 					<Post2 />
 				</Col>
-                <Col md={2} className="mt-4 float-right">
+                <Col md={3} className="mt-4 float-right">
 					<Card>
 						<Card.Body>
 							<Card.Title>popular Posts</Card.Title>
@@ -70,11 +69,11 @@ const Posts = () => {
 	
 					</div>
 				</Col>
-				<Col md={8} className="mb-4">
+				<Col md={6} className="mb-4">
 					<Post3 />
 				</Col>
                 
-				<Col md={2} className="mb-4 mt-4">
+				<Col md={3} className="mb-4 mt-4">
 			       <div>
 	
 					</div>
@@ -84,10 +83,10 @@ const Posts = () => {
 	
 					</div>
 				</Col>
-				<Col md={8} className="mb-4">
+				<Col md={6} className="mb-4">
 					<Post4 />
 				</Col>
-				<Col md={2} className="mb-4 mt-4">
+				<Col md={3} className="mb-4 mt-4">
 			       <div>
 	
 					</div>
