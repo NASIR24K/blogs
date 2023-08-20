@@ -26,7 +26,7 @@ const Posts = () => {
 				<Col md={6} className="mb-4 mt-4">
 					<Post1 />
 				</Col>
-				<Col md={4} className="mt-4 float-right">
+				<Col md={3} className="mt-4 float-right">
 					<Card>
 						<Card.Body>
 							<Card.Title>Recent Posts</Card.Title>

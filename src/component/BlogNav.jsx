@@ -3,6 +3,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Nav, Form, FormControl, Image } from 'react-bootstrap';
+
 import MyImage from '../images/food4.jpg';
 
 
@@ -25,7 +26,7 @@ const BlogNav = () => {
 				<Navbar.Toggle />
 				<Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
 					<Nav>
-						<Nav.Link href="#home" style={{color:"white"}}>
+						<Nav.Link  style={{color:"white"}}>
 							JavaScript
 						</Nav.Link>
 						<Nav.Link href="#about" style={{color:"white"}}>
@@ -43,6 +44,7 @@ const BlogNav = () => {
 					</Form>
 				</Navbar.Collapse>
 			</Navbar>
+  
 		</div>
 	)
 }
